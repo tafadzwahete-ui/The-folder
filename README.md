@@ -128,4 +128,75 @@ Run the program:
 
 python currency_converter.py
 
+#  Classroom Student Grading Program
+
+##  What this program is about
+
+This is a simple Python program that helps you record student names and their scores, then automatically tells you whether each student has **passed**, achieved a **distinction**, or needs to **redo**.
+
+It’s a practical beginner project that feels like a small classroom grading system.
+
+---
+
+## How it works (simple explanation)
+
+### 1. Storing student data
+
+The program uses a list called `classroom` to store all students.
+
+Each student is saved as a **dictionary** with:
+
+* Name
+* Score
+* Status (Pass, Distinction, or Redo)
+
+---
+
+### 2. Grading system
+
+The program uses a function to decide the student’s result:
+
+* **80 and above → Distinction**
+* **50 to 79 → Pass**
+* **Below 50 → Redo**
+
+---
+
+### 3. Input process
+
+* You enter a student’s name
+* Then enter their score
+* The program stores the student’s details
+* This repeats until you type **"exit"**
+
+---
+
+### 4. Final output
+
+After you finish entering students, the program prints a full report showing:
+
+* Name
+* Score
+* Status
+
+---
+
+
+##  How to run it
+
+1. Make sure Python is installed
+2. Save the file as:
+
+   ```
+   classroom.py
+   ```
+3. Open your terminal or command prompt
+4. Run:
+
+   ```
+   python classroom.py
+   ```
+
+
+
 
