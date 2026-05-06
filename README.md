@@ -87,4 +87,45 @@ Make sure you have Python installed
 Copy the code into a file (for example: guess_game.py)
 Open your terminal or command prompt
 
+###Currency Converter (USD, Rand, Pound to RTGS)###
+
+ #What this program does
+
+This is a simple Python program that converts different currencies into RTGS.
+It allows you to enter an amount in USD, South African Rand, or Pound, and then shows you the equivalent value in RTGS.
+
+It’s a beginner-friendly project to help you understand how functions and calculations work in Python.
+
+#How it works (simple explanation)
+
+The program has three separate parts:
+
+USD to RTGS
+Uses a fixed rate of 40
+Multiplies your USD amount by 40
+Rand to RTGS
+Uses a fixed rate of 200
+Multiplies your Rand amount by 200
+Pound to RTGS
+Uses a fixed rate of 80
+Multiplies your Pound amount by 80
+
+Each time, the program:
+
+Asks you to enter an amount
+Converts it
+Prints the result
+
+# How to run it
+Make sure Python is installed on your computer
+
+Save the code in a file, for example:
+
+currency_converter.py
+Open your terminal or command prompt
+
+Run the program:
+
+python currency_converter.py
+
 
