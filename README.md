@@ -64,3 +64,27 @@ guess_game.py
 Open your terminal or command prompt and run:
 
 python guess_game.py
+
+## Guess the Number Game##
+What this program is about
+
+This is a simple Python game where the computer thinks of a number, and your job is to guess it. It keeps asking you again and again until you finally get the right answer.
+
+It’s a great beginner project if you’re learning how Python works.
+
+# How it works (in simple terms)
+
+The program stores a secret number: 7
+You type in your guess
+If you’re right → it says "correct"
+If you’re wrong → it says "wrong" and lets you try again
+
+There’s no limit to how many times you can guess.
+
+#How to run it
+
+Make sure you have Python installed
+Copy the code into a file (for example: guess_game.py)
+Open your terminal or command prompt
+
+
