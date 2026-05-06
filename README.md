@@ -36,3 +36,31 @@ Make sure you have Python installed on your computer
 Save the code in a file called calculator.py
 Open your terminal or command prompt
 Run the program using:
+
+
+ ###Guess the Number – Python Program###
+ Description
+
+This is a small and fun beginner Python program. The idea is simple: the computer has a secret number, and you keep guessing until you get it right.
+
+It’s a great way to practice how loops and conditions work in Python.
+
+# How It Works
+The program sets a secret number (password = 7).
+You are asked to guess the number.
+If your guess is correct → it tells you "correct".
+If your guess is wrong → it says "wrong" and lets you try again.
+
+The program keeps running until you stop it manually.
+
+
+#How to Run
+Make sure Python is installed on your computer.
+
+Save the code in a file called:
+
+guess_game.py
+
+Open your terminal or command prompt and run:
+
+python guess_game.py
